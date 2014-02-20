@@ -9,7 +9,6 @@ Part 1: An Intro to Otter2D, a 2D Framework Using SFML.NET
 http://ericmbernier.tumblr.com/post/74890485795/otter2d-top-down-adventure-tutorial-part-1-an-intro
 
 Part 2: Creating Your First Scene
-
 http://ericmbernier.tumblr.com/post/74896213201/otter-2d-top-down-adventure-tutorial-part-2
 
 Part 3: Polishing our TitleScene
