@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtterTutorial", "OtterTutorial\OtterTutorial.csproj", "{F00B0E07-1030-4C13-B092-3ED118D54716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otter", "..\..\..\Frameworks\Otter\Otter.csproj", "{236485C2-A7BA-4DCD-808A-B3A634764402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otter", "..\..\..\..\Frameworks\Otter\Otter.csproj", "{236485C2-A7BA-4DCD-808A-B3A634764402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

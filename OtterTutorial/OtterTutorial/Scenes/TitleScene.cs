@@ -21,6 +21,9 @@ namespace OtterTutorial.Scenes
 
         public Music titleSong = new Music(Assets.MUSIC_TITLE, true);
 
+        public Image darkScreen = Image.CreateRectangle(Global.GAME_WIDTH, Global.GAME_HEIGHT, new Otter.Color("000000"));
+
+
         public TitleScene()
         {
             // Center the title picture 
@@ -46,6 +49,9 @@ namespace OtterTutorial.Scenes
             this.AddGraphic(enterText);
 
             titleSong.Play();
+
+            darkScreen.Alpha = 0;
+            this.AddGraphic(darkScreen);
         }
 
 
@@ -62,11 +68,17 @@ namespace OtterTutorial.Scenes
 
             if (Global.PlayerSession.Controller.Start.Pressed)
             {
-                titleSong.Stop();
-
-                Global.TUTORIAL.RemoveScene();
-                Global.TUTORIAL.AddScene(new GameScene());
+                Glide.Tweener.Tween(darkScreen, new { Alpha = 1 },  30f, 0).OnComplete(PlayGame);
             }
+        }
+
+
+        private void PlayGame()
+        {
+            titleSong.Stop();
+
+            Global.TUTORIAL.RemoveScene();
+            Global.TUTORIAL.AddScene(new GameScene());
         }
     }
 }

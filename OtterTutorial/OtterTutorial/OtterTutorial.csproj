@@ -77,12 +77,11 @@
     <None Include="Assets\Sound\enemyHurt.ogg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Frameworks\Otter\Otter.csproj">
+    <ProjectReference Include="..\..\..\..\..\Frameworks\Otter\Otter.csproj">
       <Project>{236485c2-a7ba-4dcd-808a-b3a634764402}</Project>
       <Name>Otter</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Assets\Graphics\boss.png" />
     <Content Include="Assets\Graphics\bossBullet.png" />
