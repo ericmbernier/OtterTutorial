@@ -1,7 +1,10 @@
 OtterTutorial
 =============
 
-Git repository for my Otter Tutorial series.
+Update 09/30/2014
+Now supports Otter v0.9.6!
+
+Git repository for my Otter Tutorial series. Please note this only hosts the source code, and none of the asset files, nor Visual Studio project files. Please download those from my site.
 
 Otter 2D Top-Down Adventure Tutorial
 
