@@ -36,5 +36,6 @@ Part 9: Adding a Boss and an EndScene
 http://ericmbernier.tumblr.com/post/77233421725/otter-2d-top-down-adventure-tutorial-part-9-adding
 
 Part 10: Polish and Final Thoughts
+http://ericmbernier.tumblr.com/post/77493960715/otter-2d-top-down-adventure-tutorial-part-10-polish
 
 Thanks for reading!
